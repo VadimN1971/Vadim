@@ -25,12 +25,12 @@ public class L6L1T2 {
                 System.out.println(" value = " + strings[0]); //"index = 0 value = EVEN
                 System.out.print("index = 1");
                 System.out.println(" value = " + strings[1]); //"index = 1 value = ODD
-                //System.out.print("index = 2");
-                //System.out.println(" value = " + strings[2]); //"index = 2 value = EVEN
-                //System.out.print("index = 3");
-                //System.out.println(" value = " + strings[3]); //"index = 1 value = ODD
-                //System.out.print("index = 4");
-                //System.out.println(" value = " + strings[4]); //"index = 4 value = EVEN
+                System.out.print("index = 2");
+                System.out.println(" value = " + strings[2]); //"index = 2 value = EVEN
+                System.out.print("index = 3");
+                System.out.println(" value = " + strings[3]); //"index = 1 value = ODD
+                System.out.print("index = 4");
+                System.out.println(" value = " + strings[4]); //"index = 4 value = EVEN
             }
         }
 
