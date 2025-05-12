@@ -20,11 +20,11 @@ public class L6L2T1 {
         }
         for (int j = 0; j < secondArray.length; j++) {
             resultArray[d++] = secondArray[j];
-
+        }
 //
-            for (int i = 0; i < resultArray.length; i++) {
-                System.out.print(resultArray[i] + ", ");
-            }
+        for (int i = 0; i < resultArray.length; i++) {
+            System.out.print(resultArray[i] + ", ");
         }
     }
 }
+
