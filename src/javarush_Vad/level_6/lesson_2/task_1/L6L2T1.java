@@ -11,9 +11,20 @@ public class L6L2T1 {
     public static int[] resultArray;
 
     public static void main(String[] args) {
-        //напишите тут ваш код
-        for (int i = 0; i < resultArray.length; i++) {
-            System.out.print(resultArray[i] + ", ");
+//
+
+        int d = 0;
+        for (int i = 0; i < firstArray.length; i++) {
+            resultArray[i] = firstArray[i];
+            d++;
+        }
+        for (int j = 0; j < secondArray.length; j++) {
+            resultArray[d++] = secondArray[j];
+
+//
+            for (int i = 0; i < resultArray.length; i++) {
+                System.out.print(resultArray[i] + ", ");
+            }
         }
     }
 }
