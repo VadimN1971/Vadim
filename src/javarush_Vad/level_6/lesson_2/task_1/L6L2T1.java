@@ -12,14 +12,12 @@ public class L6L2T1 {
 
     public static void main(String[] args) {
 //
-
-        int d = 0;
+        resultArray = new int[firstArray.length + secondArray.length];
         for (int i = 0; i < firstArray.length; i++) {
             resultArray[i] = firstArray[i];
-            d++;
         }
         for (int j = 0; j < secondArray.length; j++) {
-            resultArray[d++] = secondArray[j];
+            resultArray[j + firstArray.length] = secondArray[j];
         }
 //
         for (int i = 0; i < resultArray.length; i++) {
