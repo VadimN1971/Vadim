@@ -9,23 +9,20 @@ public class L6L1T3 {
 
     public static void main(String[] args) {
 
-        int even = array[0];
-        int index = 0;
-
-
         for (int i = 0; i < 5; i++) {
-            if (i % 2 == 0) {
-                even = i;
+            if (array[i] % 2 == 0) {
+                array[i] = -array[i];
+
+                System.out.println(array[0]);
+                System.out.println(array[1]);
+                System.out.println(array[2]);
+                System.out.println(array[3]);
+                System.out.println(array[4]);
             }
-            array[] = (-Math.abs(i));
         }
-
-        System.out.println(array[0]);
-        System.out.println(array[1]);
-        System.out.println(array[2]);
-        System.out.println(array[3]);
-        System.out.println(array[4]);
-        break;
     }
-
 }
+
+
+
+
