@@ -16,8 +16,8 @@ public class L6L2T1 {
         for (int i = 0; i < firstArray.length; i++) {
             resultArray[i] = firstArray[i];
         }
-        for (int j = 0; j < secondArray.length; j++) {
-            resultArray[j + firstArray.length] = secondArray[j];
+        for (int i = 0; i < secondArray.length; i++) {
+            resultArray[i + firstArray.length] = secondArray[i];
         }
 //
         for (int i = 0; i < resultArray.length; i++) {
