@@ -5,8 +5,6 @@ package javarush_Vad.temp.t04;
 */
 
 public class Test04 {
-    public static int[][] MULTIPLICATION_TABLE;
-
     public static void main(String[] args) {
 
         for (int i = 1; i <= 10; i++) {
