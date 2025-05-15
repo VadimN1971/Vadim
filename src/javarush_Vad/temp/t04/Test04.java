@@ -16,9 +16,10 @@ public class Test04 {
             for (int j = 1; j <= 10; j++) {
 
                 int x = i * j;
-                System.out.println(x);
+                System.out.print(x + " ");
 
             }
+            System.out.println();
         }
     }
 }
