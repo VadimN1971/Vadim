@@ -1,22 +1,27 @@
 package javarush_Vad.temp.t04;
 
+import java.util.Scanner;
 /*
 Таблица умножения > умножение
 */
 
 public class Test04 {
-    public static void main(String[] args) {
+    public static int[][] multiArray;
 
-        for (int i = 1; i <= 10; i++) {
-            for (int j = 1; j <= 10; j++) {
-                int x = i * j;
-                System.out.print(x + " ");
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int N = scanner.nextInt();
+        multiArray = new int[N][];
+        for (int i = 0; i < N; i++) {
+            int size = scanner.nextInt();
+            multiArray[i] = new int[size];
+        }
+        for (int i = 0; i < N; i++) {
+            for (int j = 0; j < multiArray[i].length; j++) {
+                System.out.print(multiArray[i][j] + " ");
             }
             System.out.println();
         }
+        scanner.close();
     }
 }
-// В цикле выложить столбец из таблицы умножения
-// Сгенерировать числа X и Y в цикле от 1 до 10, после чего их перемножить выводя в ответ результат.
-// Для начала, перемножить от 1 до 10 на одно число.
-
