@@ -1,7 +1,5 @@
 package javarush_Vad.level_6.lesson_7.task_1;
 
-import org.w3c.dom.ls.LSOutput;
-
 import java.util.Arrays;
 
 /*
