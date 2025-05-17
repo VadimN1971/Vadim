@@ -4,8 +4,6 @@ package javarush_Vad.level_6.lesson_6.task_3;
 Создаем мультимассив
 */
 
-import org.w3c.dom.ls.LSOutput;
-
 public class L6L6T3 {
     public static int[][][] multiArray = new int[][][]{{{4, 8, 15}, {16}}, {{23, 42}, {}}, {{1}, {2}, {3}, {4, 5}}};
 
