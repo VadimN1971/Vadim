@@ -14,5 +14,11 @@ public class L6L8T4 {
     public static void main(String[] args) {
         //напишите тут ваш код
 
+        int[] sortedArray = Arrays.copyOf(array, array.length);
+        Arrays.sort(sortedArray);
+
+            int x = Arrays.binarySearch(sortedArray, element);
+            boolean b = x >= 0;
+            System.out.println(b);
+        }
     }
-}
