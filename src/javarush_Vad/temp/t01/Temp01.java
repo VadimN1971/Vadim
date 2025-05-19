@@ -1,55 +1,34 @@
 package javarush_Vad.temp.t01;
 
-/*
-Индекс массы тела
- */
+import java.util.Arrays;
+import java.util.Scanner;
+
+
 public class Temp01 {
-    public static void main (String[] args) {
-        humanIMB humanIMB = new humanIMB(65,1.56);
-        System.out.println(humanIMB.Result());
+
+    public static void main(String[] args) {
+
+        //задаем булев трёхмерный массив. На этой парковке есть 3 этажа, на каждом из которых можно поместить 2х5 = 10 машин. По умолчанию все ячейки пусты (false)
+        boolean[][][] arr = new boolean[3][2][5];
+//приехало две машины и припарковались на нулевом этаже в ячейке [1][0] и [1][3]
+        arr[0][1][0] = true;
+        arr[0][1][3] = true;
+
+//Выведем массив в консоль
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[i].length; j++) {
+                for (int k = 0; k < arr[i][j].length; k++) {
+                    System.out.print(" arr[" + i + "][" + j + "][" + k + "] = " + arr[i][j][k] + " ");
+                }
+                System.out.println();
+            }
+        }
     }
 }
-class humanIMB {
-    public double W; //Weight Human
-    public double H; // Height Human
-    private static double imb;
-    public humanIMB(double w, double h) {
-        W = w;
-        H = h;
-        imb = W / (H * H);
-    }
-    public double takeW() {
-        return W;
-    }
-    public void putW(double w) {
-        W = w;
-        imb = W / (H * H);
-    }
-    public double takeH() {
-        return H;
-    }
-    public void putH(double h) {
-        H = h;
-        imb = W / (H * H);
-    }
-    public static double takeImt() {
-        return imb;
-    }
-    public static String Result() {
-        String  string = null;
-        if (imb >=18.5 & imb <25) {
-            string ="Норма, ты в форме!";
-        }
-        if (imb >=25 & imb <30) {
-            string ="Предожирение. Эй, поосторожнее с пирожными ";
-        }
-        if (imb >=30) {
-            string ="Ожирение. SCHWEINE! Хватит жрать, иди на треню!";
-        }
-        if (imb <18.5) {
-            string ="Дефицит массы тела. В модели решил переквалифицироваться?";
-        }
-        return string;
-    }
-}
+
+
+
+
+
+
 
