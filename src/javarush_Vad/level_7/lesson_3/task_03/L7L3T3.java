@@ -8,9 +8,13 @@ public class L7L3T3 {
     public static void main(String[] args) {
     }
 
-    public static long cube(long a) {
-        return a * a * a;
+    public static long cube(long number) {
+        return number * number * number;
     }
-    //напишите тут ваш код
+
+    public static long ninthDegree(long number) {
+        return cube(cube(number));
+    }
 }
+
 
