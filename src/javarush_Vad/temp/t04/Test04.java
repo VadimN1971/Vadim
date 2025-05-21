@@ -4,7 +4,9 @@ public class Test04 {
 
 
     public static void main(String[] args) {
+        System.out.println("0-0");
         user1(); //в методе main обязательна передача работе программе следующему методу!
+        System.out.println("0-1");
     }
 
     public static void user1() {
@@ -50,7 +52,9 @@ public class Test04 {
 // Но, так как в этом методе уже исполнен методы user3() и System.out.println("user1"); и user2();,
 // исполнение передается дальше к методу System.out.println("user1-2"); и user2();
 // Далее, метод public static void user2() выполняет System.out.println("user2")
-// и завершается работа кода, так как далее исполнение кода никуда не передается.
+// Далее, происходит возврат к методу user1()
+// и завершается работа кода, так как программа выполнила код полностью,
+// и далее исполнение кода никуда не передается.
 
 
 
