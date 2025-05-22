@@ -1,4 +1,4 @@
-package javarush_Vad.level_7.lesson_4.task_02;
+package javarush_Vad.level_7.lesson_4.task_2;
 
 /*
 Анализ массивов

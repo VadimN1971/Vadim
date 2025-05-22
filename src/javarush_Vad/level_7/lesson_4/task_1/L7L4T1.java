@@ -1,4 +1,4 @@
-package javarush_Vad.level_7.lesson_4.task_01;
+package javarush_Vad.level_7.lesson_4.task_1;
 
 /*
 Борьба за доступ
