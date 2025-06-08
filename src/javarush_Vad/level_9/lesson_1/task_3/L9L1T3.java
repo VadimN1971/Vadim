@@ -13,13 +13,21 @@ public class L9L1T3 {
         System.out.println(min(intArray));
     }
 
-    public static int min(int[] ints) {
-        //напишите тут ваш код
-        return 0;
+    public static int min(int[] array) {
+        int min = array[0];
+        for (int element : array) {
+            min = Math.min(min, element);
+        }
+        return min;
     }
 
     public static int[] getArrayOfTenElements() {
-        //напишите тут ваш код
-        return new int[10];
+        Scanner console = new Scanner(System.in);
+        int[] array = new int[10];
+
+        for (int i = 0; i < array.length; i++) {
+            array[i] = console.nextInt();
+        }
+        return array;
     }
 }
