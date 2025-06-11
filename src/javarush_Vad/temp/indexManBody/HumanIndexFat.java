@@ -1,4 +1,4 @@
-package javarush_Vad.temp.t02;
+package javarush_Vad.temp.indexManBody;
 
 import java.util.Scanner;
 

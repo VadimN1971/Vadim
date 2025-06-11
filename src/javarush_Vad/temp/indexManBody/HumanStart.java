@@ -1,6 +1,6 @@
-package javarush_Vad.temp.t02;
+package javarush_Vad.temp.indexManBody;
 
-public class Temp02 {
+public class HumanStart {
 
 
         public static void main(String[] args) {

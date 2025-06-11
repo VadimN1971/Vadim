@@ -1,6 +1,6 @@
-package javarush_Vad.temp.t03;
+package javarush_Vad.temp.faq_operators_iteration;
 
-public class Temp03 {
+public class Operators {
     public static void main(String[] args) throws Exception {
         char choice;
         do {

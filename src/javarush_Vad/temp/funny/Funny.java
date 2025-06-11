@@ -1,8 +1,8 @@
-package javarush_Vad.temp.t06;
+package javarush_Vad.temp.funny;
 
 import java.util.Scanner;
 
-public class Test06 {
+public class Funny {
 
     public static String ups = "да";
     public static String ops = "нет";

@@ -1,4 +1,4 @@
-package javarush_Vad.temp.t05;
+package javarush_Vad.temp.phone_book;
 
 //public class PhoneBook {
 
